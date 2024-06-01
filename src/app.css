@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/Satoshi-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@layer base {
+    :root {
+      --text: #040316;
+      --background: #fbfbfe;
+      --primary: #003d75;
+      --secondary: #dddbff;
+      --accent: #0286f2;
+    }
+    .dark {
+      --text: #eae9fc;
+      --background: #010104;
+      --primary: #8ac6ff;
+      --secondary: #020024;
+      --accent: #0d91fd;
+    }
+  }
+
+  body {
+    font-family: 'Satoshi', sans-serif;
+  }
