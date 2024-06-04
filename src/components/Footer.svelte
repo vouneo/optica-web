@@ -52,10 +52,15 @@
 </footer>
 
 <style>
+    .footer-container {
+        padding: 20px; /* Ajusta el padding según sea necesario */
+    }
+
     .footer-menu-column {
         display: inline-block;
         vertical-align: top;
         width: 18%;
+        padding: 10px; /* Añade padding a cada columna */
     }
 
     .footer-menu-title {
@@ -88,6 +93,7 @@
 
     .footer-copyright-text {
         color: white;
+        padding: 0 20px; /* Añade padding horizontal al texto de copyright */
     }
 
     .footer-stroke {

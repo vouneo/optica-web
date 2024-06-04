@@ -1,6 +1,7 @@
 <script>
+	
     export let imageUrl = "/img/4.jpg";
-    export let promoText = "¡Promoción especial! 35% de descuento en todas las gafas de sol.";
+    export let promoText = "¡Promoción especial! 35% de descuento en todos nuestros marcos + cristales.";
 </script>
 
 <style>
@@ -23,10 +24,10 @@
     .promo-text {
         position: absolute;
         top: 85%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        left: 40%;
+        transform: translate(-35%, -50%);
         color: white;
-        font-size: 24px; /* Ajusta el tamaño del texto según sea necesario */
+        font-size: 26px; /* Ajusta el tamaño del texto según sea necesario */
         font-weight: bold;
         text-align: center;
         background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mayor legibilidad */
