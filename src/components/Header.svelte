@@ -5,7 +5,7 @@
 
 <header class="relative z-20">
     <div class="promo-banner">
-        ¡Promoción especial! 35% de descuento en todos nuestros combos de armazón + cristales.
+        ¡Todo el mes de Junio! Examen visual sin costo.
     </div>
     <div class="max-w-[1200px] mx-auto w-full flex flex-col items-center p-4 py-6">
         <a href="/">
