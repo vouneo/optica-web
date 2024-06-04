@@ -37,8 +37,8 @@
         <div class="footer-menu-column">
             <h4 class="footer-menu-title font-bold">Síguenos</h4>
             <ul class="footer-social-icons flex flex-row justify-end space-x-4">
-                <li><a class="footer-social-icon" href="#"><Facebook style="color: white;" /></a></li>
-                <li><a class="footer-social-icon" href="#"><Instagram style="color: white;" /></a></li>
+                <li><a class="footer-social-icon" href="https://www.facebook.com/opticagraneros/"><Facebook style="color: white;" /></a></li>
+                <li><a class="footer-social-icon" href="https://www.instagram.com/optica_graneros/"><Instagram style="color: white;" /></a></li>
             </ul>
         </div>
     </div>
