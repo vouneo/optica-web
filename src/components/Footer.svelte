@@ -7,38 +7,38 @@
         <div class="footer-menu-column">
             <h4 class="footer-menu-title font-bold">Productos</h4>
             <ul>
-                <li><a class="footer-menu-item" href="/nuestros-marcos">Nuestros marcos</a></li>
-                <li><a class="footer-menu-item" href="/nuestros-cristales">Nuestros cristales</a></li>
-                <li><a class="footer-menu-item" href="/lentespalcompu">Lentes con Filtro azul</a></li>
+                <li><a class="footer-menu-item" href="#">Nuestros marcos</a></li>
+                <li><a class="footer-menu-item" href="#">Nuestros cristales</a></li>
+                <li><a class="footer-menu-item" href="#">Lentes con Filtro azul</a></li>
             </ul>
         </div>
         <div class="footer-menu-column">
             <h4 class="footer-menu-title font-bold">Locales</h4>
             <ul>
-                <li><a class="footer-menu-item" href="/stores">Ubicaciones</a></li>
+                <li><a class="footer-menu-item" href="#">Ubicaciones</a></li>
             </ul>
         </div>
         <div class="footer-menu-column">
             <h4 class="footer-menu-title font-bold">Nosotros</h4>
             <ul>
-                <li><a class="footer-menu-item" href="/nuestro-manifiesto">Nuestro manifiesto</a></li>
+                <li><a class="footer-menu-item" href="#">Nuestro manifiesto</a></li>
             </ul>
         </div>
         <div class="footer-menu-column">
             <h4 class="footer-menu-title font-bold">Más enlaces</h4>
             <ul>
-                <li><a class="footer-menu-item" href="/ayuda">Ayuda</a></li>
-                <li><a class="footer-menu-item" href="/devoluciones-y-garantias">Devoluciones y garantías</a></li>
-                <li><a class="footer-menu-item" href="/terminos-y-condiciones-de-uso">Términos y condiciones</a></li>
-                <li><a class="footer-menu-item" href="/politica-de-privacidad">Política de privacidad</a></li>
-                <li><a class="footer-menu-item" href="/reembolso-isapre">Reembolso ISAPRE</a></li>
+                <li><a class="footer-menu-item" href="#">Ayuda</a></li>
+                <li><a class="footer-menu-item" href="#">Devoluciones y garantías</a></li>
+                <li><a class="footer-menu-item" href="#">Términos y condiciones</a></li>
+                <li><a class="footer-menu-item" href="#">Política de privacidad</a></li>
+                <li><a class="footer-menu-item" href="#">Reembolso ISAPRE</a></li>
             </ul>
         </div>
         <div class="footer-menu-column">
             <h4 class="footer-menu-title font-bold">Síguenos</h4>
             <ul class="footer-social-icons flex flex-row justify-end space-x-4">
-                <li><a class="footer-social-icon" href="https://www.facebook.com/opticagraneros/"><Facebook style="color: white;" /></a></li>
-                <li><a class="footer-social-icon" href="https://www.instagram.com/optica_graneros/"><Instagram style="color: white;" /></a></li>
+                <li><a class="footer-social-icon" href="#"><Facebook style="color: white;" /></a></li>
+                <li><a class="footer-social-icon" href="#"><Instagram style="color: white;" /></a></li>
             </ul>
         </div>
     </div>
