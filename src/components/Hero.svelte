@@ -1,42 +1,40 @@
 <script>
-	
-    export let imageUrl = "/img/4.jpg";
-    export let promoText = "¡Promoción especial! 35% de descuento en todos nuestros marcos + cristales.";
+	export let imageUrl = '/img/4a.jpg'
 </script>
 
-<style>
-    .banner-container {
-        position: relative;
-        width: 100%;
-        height: 500px; /* Ajusta la altura según sea necesario */
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .banner-image {
-        width: 100%;
-        height: auto;
-        object-fit: contain; /* Asegura que la imagen mantenga sus proporciones sin cortarse */
-    }
-
-    .promo-text {
-        position: absolute;
-        top: 85%;
-        left: 40%;
-        transform: translate(-35%, -50%);
-        color: white;
-        font-size: 26px; /* Ajusta el tamaño del texto según sea necesario */
-        font-weight: bold;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mayor legibilidad */
-        padding: 10px 20px;
-        border-radius: 5px;
-    }
-</style>
-
 <div class="banner-container">
-    <img src={imageUrl} alt="Promotional Banner" class="banner-image" />
-    <div class="promo-text">{promoText}</div>
+	<div class="banner-image" style="background-image: url({imageUrl});"></div>
 </div>
+
+<style>
+	.banner-container {
+		position: relative;
+		width: 100%; /* Ocupa todo el ancho disponible */
+		height: 105vh; /* Usa un valor de viewport height para la altura del contenedor */
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.banner-image {
+		width: 100%;
+		height: 100%;
+		background-size: cover; /* Asegura que la imagen cubra el contenedor */
+		background-position: center; /* Centra la imagen en el contenedor */
+		background-repeat: no-repeat; /* Evita que la imagen se repita */
+	}
+
+	/* Media queries para ajustar el diseño en diferentes tamaños de pantalla */
+	@media (max-width: 768px) {
+		.banner-container {
+			height: 40vh; /* Ajusta la altura en pantallas más pequeñas si es necesario */
+		}
+	}
+
+	@media (max-width: 480px) {
+		.banner-container {
+			height: 30vh; /* Ajusta la altura en pantallas muy pequeñas si es necesario */
+		}
+	}
+</style>
