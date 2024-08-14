@@ -2,6 +2,7 @@
 	export let imageUrl1 = '/img/horarios.png'
 	export let imageUrl2 = '/img/agosto.png'
 	import SectionWrapper from './SectionWrapper.svelte'
+	import LogoSection from './LogoSection.svelte';
 </script>
 
 <SectionWrapper>
@@ -28,6 +29,7 @@
 		</div>
 	</div>
 </SectionWrapper>
+<LogoSection />
 
 <style>
 	.text-image-container {
