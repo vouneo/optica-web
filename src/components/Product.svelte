@@ -1,5 +1,5 @@
 <script>
-	export let imageUrl1 = '/img/promo-junio.png'
+	export let imageUrl1 = '/img/horarios.png'
 	export let imageUrl2 = '/img/agosto.png'
 	import SectionWrapper from './SectionWrapper.svelte'
 </script>
