@@ -1,5 +1,4 @@
 <script>
-	import { Search } from 'lucide-svelte'
 </script>
 
 <header class="relative z-20">
@@ -18,7 +17,7 @@
 			<a href="#" class="duration-200 hover:text-[--accent] font-bold cursor-pointer">
 				Bifocales y Multifocales
 			</a>
-			<a href="#" class="duration-200 hover:text-[--accent] font-bold cursor-pointer">
+			<a href="/biflex" class="duration-200 hover:text-[--accent] font-bold cursor-pointer">
 				Lentes BiFlex
 			</a>
 			<a href="#" class="duration-200 hover:text-[--accent] font-bold cursor-pointer"> Niños </a>
@@ -41,5 +40,15 @@
 		padding: 10px 0; /* Ajusta el padding según sea necesario */
 		width: 100%;
 		font-size: 14px; /* Ajusta el tamaño de fuente según sea necesario */
+	}
+
+	@media (min-width: 768px) {
+		nav {
+			display: flex;
+			justify-content: space-between;
+			display: flex;
+			gap: var(--size-7);
+			margin-block: 0;
+		}
 	}
 </style>
