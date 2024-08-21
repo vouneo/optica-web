@@ -27,19 +27,19 @@
 
 <style>
 	.logo {
-		height: 170px; /* Ajusta el tamaño del logo según tus necesidades */
-		object-fit: cover; /* Hace que la imagen cubra todo el contenedor, recortando si es necesario */
-		object-position: 0 -30px; /* Desplaza la imagen hacia arriba para que se recorte la parte superior */
-		width: 90%; /* Reduce el ancho de la imagen para que no abarque todo el contenedor */
+		height: 170px;
+		object-fit: cover;
+		object-position: 0 -30px;
+		width: 90%;
 	}
 
 	.promo-banner {
 		background-color: black;
 		color: white;
 		text-align: center;
-		padding: 10px 0; /* Ajusta el padding según sea necesario */
+		padding: 10px 0;
 		width: 100%;
-		font-size: 14px; /* Ajusta el tamaño de fuente según sea necesario */
+		font-size: 14px;
 	}
 
 	@media (min-width: 768px) {
