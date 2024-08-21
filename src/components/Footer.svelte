@@ -7,31 +7,26 @@
 		<div class="footer-menu-column">
 			<h4 class="footer-menu-title font-bold">Productos</h4>
 			<ul>
-				<li><a class="footer-menu-item" href="#">Nuestros marcos</a></li>
-				<li><a class="footer-menu-item" href="#">Nuestros cristales</a></li>
-				<li><a class="footer-menu-item" href="#">Lentes con Filtro azul</a></li>
+				<li><a class="footer-menu-item" href="/">Nuestros marcos</a></li>
+				<li><a class="footer-menu-item" href="/">Nuestros cristales</a></li>
+				<li><a class="footer-menu-item" href="/">Lentes con Filtro azul</a></li>
 			</ul>
 		</div>
 		<div class="footer-menu-column">
 			<h4 class="footer-menu-title font-bold">Locales</h4>
 			<ul>
-				<li><a class="footer-menu-item" href="#">Ubicaciones</a></li>
+				<li><a class="footer-menu-item" href="/">Ubicaciones</a></li>
 			</ul>
 		</div>
-		<div class="footer-menu-column">
-			<h4 class="footer-menu-title font-bold">Nosotros</h4>
-			<ul>
-				<li><a class="footer-menu-item" href="#">Nuestro manifiesto</a></li>
-			</ul>
-		</div>
+
 		<div class="footer-menu-column">
 			<h4 class="footer-menu-title font-bold">Más enlaces</h4>
 			<ul>
-				<li><a class="footer-menu-item" href="#">Ayuda</a></li>
-				<li><a class="footer-menu-item" href="#">Devoluciones y garantías</a></li>
-				<li><a class="footer-menu-item" href="#">Términos y condiciones</a></li>
-				<li><a class="footer-menu-item" href="#">Política de privacidad</a></li>
-				<li><a class="footer-menu-item" href="#">Reembolso ISAPRE</a></li>
+				<li><a class="footer-menu-item" href="/">Ayuda</a></li>
+				<li><a class="footer-menu-item" href="/">Devoluciones y garantías</a></li>
+				<li><a class="footer-menu-item" href="/">Términos y condiciones</a></li>
+				<li><a class="footer-menu-item" href="/">Política de privacidad</a></li>
+				<li><a class="footer-menu-item" href="/">Reembolso ISAPRE</a></li>
 			</ul>
 		</div>
 		<div class="footer-menu-column">

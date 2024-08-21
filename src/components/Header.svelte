@@ -11,16 +11,16 @@
 		</a>
 
 		<nav class="flex items-center gap-4 lg:gap-6 mt-4">
-			<a href="#" class="duration-200 hover:text-[--accent] font-bold cursor-pointer">
+			<a href="/" class="duration-200 hover:text-[--accent] font-bold cursor-pointer">
 				Ópticos Convencionales
 			</a>
-			<a href="#" class="duration-200 hover:text-[--accent] font-bold cursor-pointer">
+			<a href="/" class="duration-200 hover:text-[--accent] font-bold cursor-pointer">
 				Bifocales y Multifocales
 			</a>
 			<a href="/biflex" class="duration-200 hover:text-[--accent] font-bold cursor-pointer">
 				Lentes BiFlex
 			</a>
-			<a href="#" class="duration-200 hover:text-[--accent] font-bold cursor-pointer"> Niños </a>
+			<a href="/" class="duration-200 hover:text-[--accent] font-bold cursor-pointer"> Niños </a>
 		</nav>
 	</div>
 </header>
