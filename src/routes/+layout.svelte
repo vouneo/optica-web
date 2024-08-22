@@ -6,31 +6,20 @@
 </script>
 
 <div class="layout">
-  <!-- Header -->
-	<Header />
-
-	<main>
-		<!-- Black hole for other content -->
-		<slot />
-		<Product />
-	</main>
-
-  <!-- Footer -->
-	<Footer />
-</div>
-
-<style>
-    @media (min-width: 1440px) {
-		.layout {
-			padding-inline: 0;
-		}
-	}
-</style>
-
-<!--
-header
-hero
-product-desc
-carrusel con logos
-faq/blog
-footer  -->
+    <!-- Header -->
+      <Header />
+  
+      
+        
+        <slot />
+    <!-- Footer -->
+      <Footer />
+  </div>
+  
+  <style>
+      @media (min-width: 1440px) {
+          .layout {
+              padding-inline: 0;
+          }
+      }
+  </style>

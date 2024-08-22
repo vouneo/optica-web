@@ -10,17 +10,22 @@
 			<img src="/logo.jpg" alt="Logo Optica Graneros" class="logo" />
 		</a>
 
-		<nav class="flex items-center gap-4 lg:gap-6 mt-4">
-			<a href="/" class="duration-200 hover:text-[--accent] font-bold cursor-pointer">
+		<nav class="nav-container flex flex-col md:flex-row items-center gap-4 md:gap-6 mt-4">
+			<a href="/opticos" class="nav-link duration-200 hover:text-[--accent] font-bold cursor-pointer">
 				Ópticos Convencionales
 			</a>
-			<a href="/" class="duration-200 hover:text-[--accent] font-bold cursor-pointer">
+			<a href="/multifocales" class="nav-link duration-200 hover:text-[--accent] font-bold cursor-pointer">
 				Bifocales y Multifocales
 			</a>
-			<a href="/biflex" class="duration-200 hover:text-[--accent] font-bold cursor-pointer">
+			<a
+				href="/biflex"
+				class="nav-link duration-200 hover:text-[--accent] font-bold cursor-pointer"
+			>
 				Lentes BiFlex
 			</a>
-			<a href="/" class="duration-200 hover:text-[--accent] font-bold cursor-pointer"> Niños </a>
+			<a href="/ninos" class="nav-link duration-200 hover:text-[--accent] font-bold cursor-pointer">
+				Niños
+			</a>
 		</nav>
 	</div>
 </header>
@@ -42,13 +47,22 @@
 		font-size: 14px;
 	}
 
+	.nav-container {
+		width: 100%;
+	}
+
+	.nav-link {
+		text-align: center;
+	}
+
 	@media (min-width: 768px) {
-		nav {
-			display: flex;
-			justify-content: space-between;
-			display: flex;
-			gap: var(--size-7);
-			margin-block: 0;
+		.nav-container {
+			flex-direction: row;
+			justify-content: center;
+		}
+
+		.nav-link {
+			text-align: left;
 		}
 	}
 </style>

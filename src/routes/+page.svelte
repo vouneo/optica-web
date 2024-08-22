@@ -1,12 +1,30 @@
 <script>
     import "../app.css";
-    import Hero from "../components/Hero.svelte";
+    import Footer from "../components/Footer.svelte";
+    import Header from "../components/Header.svelte";
+    import Product from "../components/Product.svelte";
 </script>
 
-<main class="flex flex-col">
-  <Hero />
-</main>
+<div class="layout">
+	<main>
+		<!--  -->
+		
+		<Product />
+	  </main>
+</div>
 
-<style lang="postcss">
-
+<style>
+    @media (min-width: 1440px) {
+		.layout {
+			padding-inline: 0;
+		}
+	}
 </style>
+
+<!--
+header
+hero
+product-desc
+carrusel con logos
+faq/blog
+footer  -->
