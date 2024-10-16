@@ -1,12 +1,13 @@
 <script>
 	import '../app.css'
 	import Product from '../components/Product.svelte'
+	import Hero from '../components/Hero.svelte'
+
 </script>
 
 <div class="layout">
 	<main>
-		<!--  -->
-
+		<Hero />
 		<Product />
 	</main>
 </div>
