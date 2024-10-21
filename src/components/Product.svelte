@@ -1,8 +1,8 @@
 <script>
 	export let imageUrl1 = '/img/horarios.png'
-	export let imageUrl2 = '/img/agosto.png'
+	export let imageUrl2 = '/img/web1.png'
 	import SectionWrapper from './SectionWrapper.svelte'
-	import LogoSection from './LogoSection.svelte';
+	import LogoSection from './LogoSection.svelte'
 </script>
 
 <SectionWrapper>
@@ -20,12 +20,6 @@
 	<div class="text-image-container text-image-container-inverted">
 		<div class="image-block">
 			<img src={imageUrl2} alt="Imagen Descriptiva" />
-		</div>
-		<div class="text-block">
-			<div class="headline">¡Visítanos en nuestras sucursales!</div>
-			<div class="subheadline">
-				Realiza tu examen visual en nuestras tiendas y cotiza con nosotros al instante
-			</div>
 		</div>
 	</div>
 </SectionWrapper>
@@ -68,11 +62,6 @@
 		max-width: 100%;
 		height: auto;
 		border-radius: 8px;
-	}
-
-	/* Estilos para el segundo componente invertido */
-	.text-image-container-inverted .text-block {
-		margin-left: 20px;
 	}
 
 	.text-image-container-inverted .image-block {
